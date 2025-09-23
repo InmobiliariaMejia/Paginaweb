@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Inmobiliaria - Lista de Propiedades</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">IM</div>
+      <div>
+        <h1>Inmobiliaria Mejia</h1>
+        <div style="font-size:13px;color:var(--muted)">Encuentra tu próxima casa</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Lista de propiedades -->
+    <section id="list-view">
+      <h2 style="margin-top:4px">Propiedades disponibles</h2>
+      <p style="color:var(--muted)">Haz click en una casa para ver más detalles.</p>
+      <div id="grid" class="grid" aria-live="polite"></div>
+    </section>
+
+    <!-- Vista de detalle -->
+    <section id="detail-view" class="detail" aria-hidden="true">
+      <div style="width:100%">
+        <button id="backBtn" class="back">← Volver a la lista</button>
+        <div id="detailContent"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Inmobiliaria Mejia · Calle Principal 123 · Tegucigalpa · Tel (504) 9786-0841 · Inmobiliariamejia31@gmail.com  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
