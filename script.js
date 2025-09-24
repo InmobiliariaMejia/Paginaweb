@@ -175,7 +175,10 @@ function showDetail(id){
           <div class="spec">Estacionamiento: Sí</div>
         </div>
         <p style="margin-top:10px;color:var(--muted)">${p.descripcion}</p>
-        <button class="btn" onclick="alert('Contacto enviado al agente — ejemplo')">Contactar agente</button>
+       <button class="btn" onclick="window.location.href='https://wa.me/50497860841'">Contactar agente</button>
+
+</a>
+
       </aside>
     </div>
   `;
